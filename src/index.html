@@ -10,7 +10,7 @@
     <!-- navbar -->
 
     <nav
-      class="w-full bg-blue-800 flex justify-between items-center p-6 px-8 text-white"
+      class="w-full bg-[#0000ff] flex justify-between items-center p-6 px-8 text-white"
     >
       <div>
         <img src="images/Logo.png" alt="logo" />
@@ -42,7 +42,7 @@
     <!-- hero-section -->
 
     <div
-      class="w-full bg-blue-800 flex justify-center md:justify-between pl-8 h-[300px] flex-wrap"
+      class="w-full bg-[#0000ff] flex justify-center md:justify-between pl-8 h-[300px] md:h-[350px] flex-wrap"
     >
       <div class="mt-6">
         <img class="mt-8" src="images/Rectangle_12.png" alt="" />
@@ -54,7 +54,7 @@
         </p>
       </div>
       <img
-        class="lg:w-[400px] lg:h-[400px] md:w-[350px] md:h-[350px] w-[300px] h-[300px] md:relative top-8"
+        class="lg:w-[400px] lg:h-[400px] md:w-[350px] md:h-[350px] hidden md:block md:relative top-8"
         src="images/IMAGE HERE.png"
         alt=""
       />
@@ -79,7 +79,7 @@
           by category
         </h1>
       </div>
-      <div class="mt-12 flex justify-center md:justify-between flex-wrap">
+      <div class="mt-12 flex justify-center md:justify-between flex-wrap gap-4">
         <!--Api-card-1 -->
         <div class="bg-white w-fit p-4 rounded-2xl shadow-2xl">
           <img src="images/Group 97.png" alt="card-1" />
@@ -148,16 +148,14 @@
         </h1>
       </div>
       <!-- articles -->
-      <div class="mt-12 flex justify-center md:justify-between gap-2 flex-wrap">
+      <div class="mt-12 flex justify-center md:justify-between gap-3 flex-wrap">
         <!-- article-1 -->
-        <div
-          class="w-fit flex bg-white flex-wrap rounded-r-3xl md:rounded-l-full"
-        >
+        <div class="w-fit flex flex-wrap md:bg-white md:rounded-full">
           <div>
-            <img src="images/Rectangle.png" alt="img" />
+            <img class="hidden md:block" src="images/Rectangle.png" alt="img" />
           </div>
 
-          <div class="px-5">
+          <div class="px-5 bg-white rounded-3xl">
             <div>
               <p class="text-sm mt-6">06 Aug 2019</p>
               <h3 class="font-semibold mt-3 text-lg">
@@ -181,14 +179,16 @@
           </div>
         </div>
         <!-- article-2 -->
-        <div
-          class="w-fit flex bg-white flex-wrap rounded-r-3xl md:rounded-l-full"
-        >
+        <div class="w-fit flex flex-wrap md:bg-white md:rounded-full">
           <div>
-            <img src="images/Rectangle Copy.png" alt="img" />
+            <img
+              class="hidden md:block"
+              src="images/Rectangle Copy.png"
+              alt="img"
+            />
           </div>
 
-          <div class="px-5">
+          <div class="px-5 bg-white rounded-3xl md:rounded-r-3xl">
             <div>
               <p class="text-sm mt-6">06 Aug 2019</p>
               <h3 class="font-semibold mt-3 text-lg">
@@ -231,13 +231,13 @@
         <h2 class="text-base font-medium md:text-2xl mt-4">
           Do you have any question about anythings ?
         </h2>
-        <button class="bg-blue-800 mt-4 px-8 py-2 text-center rounded-xl">
+        <button class="bg-blue-800 mt-4 mb-4 px-8 py-2 text-center rounded-xl">
           Contact Us
         </button>
       </div>
       <div class="">
         <img
-          class="w-[350px] md:w-[500px]"
+          class="hidden md:block md:w-[500px]"
           src="images/Rectangle_38-2 (1).png"
           alt="img"
         />
