@@ -954,6 +954,14 @@ video {
     margin-top: 0.5rem;
   }
 
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .md\:mb-\[0px\] {
+    margin-bottom: 0px;
+  }
+
   .md\:block {
     display: block;
   }
@@ -968,6 +976,18 @@ video {
 
   .md\:h-\[350px\] {
     height: 350px;
+  }
+
+  .md\:h-\[272px\] {
+    height: 272px;
+  }
+
+  .md\:h-\[275px\] {
+    height: 275px;
+  }
+
+  .md\:h-\[280px\] {
+    height: 280px;
   }
 
   .md\:w-\[350px\] {
